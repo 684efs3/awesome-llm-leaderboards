@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Awesome LLM Leaderboards</title>
+  <style>
+    path { fill: #1a1f2e }
+    @media (prefers-color-scheme: dark) { path { fill: #e8eef8 } }
+  </style>
+  <path d="M4 52c0 2 2 4 4 4h12c2 0 4-2 4-4V40h12c2 0 4-2 4-4V28h12c2 0 4-2 4-4V12c0-2-2-4-4-4H44c-2 0-4 2-4 4v8H28c-2 0-4 2-4 4v8H12c-2 0-4 2-4 4z"/>
+</svg>

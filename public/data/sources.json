@@ -1,0 +1,344 @@
+[
+  {
+    "id": "cloudquell",
+    "name": "CloudQuell",
+    "url": "https://cloud.cloudquell.com/llm/?status=ga",
+    "description": "Compare LLM API pricing across 45 AI models from 8 providers — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Llama and Qwen. Input, output, cached and batch rates per 1M tokens, plus a free token-cost calculator. No signup.",
+    "tags": [
+      "pricing",
+      "comparison"
+    ],
+    "icon": "https://cloud.cloudquell.com/favicon.svg",
+    "screenshot": "/shots/cloudquell.jpg"
+  },
+  {
+    "id": "llmversus",
+    "name": "LLMversus",
+    "url": "https://llmversus.com/llm/pricing",
+    "description": "Compare LLM API pricing for GPT-4o, Claude Opus 4, Gemini 2.5 Pro, and 20+ more models. Sortable table with input/output costs, context windows, speed, and capabilities. Updated weekly.",
+    "tags": [
+      "pricing",
+      "benchmarks",
+      "comparison"
+    ],
+    "icon": "https://llmversus.com/favicon.ico?favicon.0x3dzn~oxb6tn.ico",
+    "screenshot": "/shots/llmversus.jpg"
+  },
+  {
+    "id": "llming",
+    "name": "llm.ing",
+    "url": "https://llm.ing/",
+    "description": "LLM benchmarks, prices, and comparisons — aggregated from public sources with per-score provenance.",
+    "tags": [
+      "pricing",
+      "benchmarks",
+      "leaderboard",
+      "comparison"
+    ],
+    "icon": "https://llm.ing/favicon.svg",
+    "screenshot": "/shots/llming.jpg"
+  },
+  {
+    "id": "llmstats",
+    "name": "LLM Stats",
+    "url": "https://llm-stats.com/leaderboards/best-ai-for-coding",
+    "description": "Compare the best AI for coding using live coding arena results, benchmark performance, and real generation examples for code generation, debugging, and software engineering.",
+    "tags": [
+      "leaderboard",
+      "coding"
+    ],
+    "icon": "https://llm-stats.com/favicon.ico",
+    "screenshot": "/shots/llmstats.jpg"
+  },
+  {
+    "id": "modelgrep",
+    "name": "modelgrep",
+    "url": "https://modelgrep.com/",
+    "description": "Find the best AI model for your use case: 300+ LLMs ranked by benchmarks, live speed, latency and price. Filter by cost, licence, context or capability — updated hourly.",
+    "tags": [
+      "comparison",
+      "pricing",
+      "benchmarks"
+    ],
+    "icon": "https://modelgrep.com/favicon.ico",
+    "screenshot": "/shots/modelgrep.jpg"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai/models",
+    "description": "Compare 500+ LLMs from OpenAI, Anthropic, Google, Meta and more — pricing, context length, and benchmarks side by side, all through one API.",
+    "tags": [
+      "pricing",
+      "comparison",
+      "catalog"
+    ],
+    "icon": "https://openrouter.ai/favicon/glyph.png",
+    "screenshot": "/shots/openrouter.jpg"
+  },
+  {
+    "id": "tokencost",
+    "name": "TokenCost",
+    "url": "https://tokencost.app/pricing",
+    "description": "Compare API pricing for GPT-5.4, Claude Opus 4.6, Gemini 3.1, Grok 4, and 142+ LLMs. Sortable table with benchmarks. Free.",
+    "tags": [
+      "pricing",
+      "comparison"
+    ],
+    "icon": "https://tokencost.app/favicon.ico",
+    "screenshot": "/shots/tokencost.jpg"
+  },
+  {
+    "id": "rankllms",
+    "name": "RankLLMs",
+    "url": "https://rankllms.com/",
+    "description": "RankLLMs (rankllm) is the independent AI model leaderboard. Compare LLM coding accuracy (SWE-bench), reasoning, speed, and API pricing - verified and reproducible data.",
+    "tags": [
+      "leaderboard",
+      "benchmarks",
+      "coding",
+      "pricing"
+    ],
+    "icon": "https://rankllms.com/favicon-96x96.png",
+    "screenshot": "/shots/rankllms.jpg"
+  },
+  {
+    "id": "llmcompare",
+    "name": "LLMCompare",
+    "url": "https://llmcompare.dev/browse",
+    "description": "Browse and compare pricing for all LLM models. Sort by price, context window, speed, and more.",
+    "tags": [
+      "comparison",
+      "catalog"
+    ],
+    "icon": "https://llmcompare.dev/favicon.ico?favicon.0x3dzn~oxb6tn.ico",
+    "screenshot": "/shots/llmcompare.jpg"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel AI Gateway",
+    "url": "https://vercel.com/ai-gateway/models",
+    "description": "Compare capabilities, pricing, and performance across leading AI providers.",
+    "tags": [
+      "catalog",
+      "pricing"
+    ],
+    "icon": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
+    "screenshot": "/shots/vercel.jpg"
+  },
+  {
+    "id": "llmcosthub",
+    "name": "LLM Cost Hub",
+    "url": "https://llmcosthub.com/pricing/",
+    "description": "Search, filter, and compare LLM API pricing across major providers in one place.",
+    "tags": [
+      "pricing",
+      "comparison"
+    ],
+    "icon": "https://llmcosthub.com/favicon.svg",
+    "screenshot": "/shots/llmcosthub.jpg"
+  },
+  {
+    "id": "aidatahub",
+    "name": "AI Data Hub",
+    "url": "https://www.aidatahub.io/data/llm-pricing",
+    "description": "Compare LLM API input and output token prices, context windows, and capabilities across major AI models in 2026.",
+    "tags": [
+      "pricing",
+      "comparison"
+    ],
+    "icon": "https://www.aidatahub.io/favicon.svg",
+    "screenshot": "/shots/aidatahub.jpg"
+  },
+  {
+    "id": "vellum",
+    "name": "Vellum",
+    "url": "https://www.vellum.ai/best-llm-for-coding",
+    "description": "Compare all proprietary and open source models across programming benchmarks, and see which one is the best.",
+    "tags": [
+      "coding",
+      "benchmarks"
+    ],
+    "icon": "https://www.vellum.ai/favicon.svg",
+    "screenshot": "/shots/vellum.jpg"
+  },
+  {
+    "id": "whatllm",
+    "name": "WhatLLM",
+    "url": "https://whatllm.org/explore",
+    "description": "Live LLM leaderboard ranking 100+ AI models by Intelligence Index, Agentic Index, cost per task, token price, speed, and context. Refreshed daily.",
+    "tags": [
+      "leaderboard",
+      "comparison"
+    ],
+    "icon": "https://whatllm.org/images/whatllm-logo.png",
+    "screenshot": "/shots/whatllm.jpg"
+  },
+  {
+    "id": "benchlm",
+    "name": "BenchLM",
+    "url": "https://benchlm.ai/",
+    "description": "Compare 420 AI models across 428 benchmarks, with 231 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
+    "tags": [
+      "leaderboard",
+      "benchmarks"
+    ],
+    "icon": "https://benchlm.ai/favicon.svg",
+    "screenshot": "/shots/benchlm.jpg"
+  },
+  {
+    "id": "artificialanalysis",
+    "name": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/",
+    "description": "Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency.",
+    "tags": [
+      "benchmarks",
+      "leaderboard",
+      "coding",
+      "comparison"
+    ],
+    "icon": "https://artificialanalysis.ai/favicon.ico",
+    "screenshot": "/shots/artificialanalysis.jpg"
+  },
+  {
+    "id": "comparity",
+    "name": "Comparity",
+    "url": "https://comparity.ai/leaderboard.html",
+    "description": "Regularly updated leaderboard of language model rankings from blind pairwise comparisons and Cascading-mode dwell time in Comparity.ai, a free and open arena-like benchmark for LLM evaluation.",
+    "tags": [
+      "leaderboard",
+      "comparison"
+    ],
+    "icon": "https://comparity.ai/images/favicon-monogram.png",
+    "screenshot": "/shots/comparity.jpg"
+  },
+  {
+    "id": "arena",
+    "name": "Arena",
+    "url": "https://arena.ai/leaderboard/code/webdev",
+    "description": "View overall rankings across AI models on front-end web development tasks, including agentic coding workflows that require multi-step reasoning and tool use.",
+    "tags": [
+      "leaderboard",
+      "coding",
+      "benchmarks"
+    ],
+    "icon": "https://arena.ai/images/favicon-rebrand.svg",
+    "screenshot": "/shots/arena.jpg"
+  },
+  {
+    "id": "pricepertoken",
+    "name": "Price Per Token",
+    "url": "https://pricepertoken.com/",
+    "description": "Free LLM API pricing comparison. Compare GPT-5, Claude, Gemini & DeepSeek costs instantly. Updated daily with official prices from OpenAI, Anthropic & more.",
+    "tags": [
+      "pricing",
+      "leaderboard",
+      "coding"
+    ],
+    "icon": "https://pricepertoken.com/Adobe%20Express%20-%20file.png",
+    "screenshot": "/shots/pricepertoken.jpg"
+  },
+  {
+    "id": "livebench",
+    "name": "LiveBench",
+    "url": "https://livebench.ai/",
+    "description": "Contamination-free benchmark leaderboard for LLMs.",
+    "tags": [
+      "benchmarks",
+      "leaderboard",
+      "coding"
+    ],
+    "icon": "https://livebench.ai/favicon.ico",
+    "screenshot": "/shots/livebench.jpg"
+  },
+  {
+    "id": "leadscalc",
+    "name": "LeadsCalc",
+    "url": "https://www.leadscalc.com/calculators/ai/api-cost-estimator",
+    "description": "Calculate and compare API costs and benchmarks for OpenAI, Anthropic, Google Gemini, and DeepSeek for free. Estimate token usage, vision processing, and batch discounts instantly.",
+    "tags": [
+      "pricing",
+      "calculator",
+      "benchmarks"
+    ],
+    "icon": "https://www.leadscalc.com/favicon.ico",
+    "screenshot": "/shots/leadscalc.jpg"
+  },
+  {
+    "id": "llmregistry",
+    "name": "LLM Registry",
+    "url": "https://llm-registry.com/",
+    "description": "Compare 1,500+ AI models side by side. Independent benchmark rankings for GPT, Claude, Gemini, DeepSeek, Llama and more — with provenance, pricing, and performance data.",
+    "tags": [
+      "leaderboard",
+      "benchmarks",
+      "comparison"
+    ],
+    "icon": "https://llm-registry.com/icon.png?icon.5b192b1b.png",
+    "screenshot": "/shots/llmregistry.jpg"
+  },
+  {
+    "id": "vakati",
+    "name": "Vakati",
+    "url": "https://www.vakati-tech.ai/compare",
+    "description": "Head-to-head comparisons of the top language models: LiveBench scores across seven categories, input and output pricing, context windows, and the measured cost of a point of capability. Updated every 15 minutes.",
+    "tags": [
+      "comparison",
+      "pricing",
+      "benchmarks",
+      "calculator"
+    ],
+    "icon": "https://www.vakati-tech.ai/icon?d8f13fee09861765",
+    "screenshot": "/shots/vakati.jpg"
+  },
+  {
+    "id": "llmeconomics",
+    "name": "LLM Economics",
+    "url": "https://llmeconomics.app/leaderboard",
+    "description": "Compare verified OpenAI, Claude, Gemini, and DeepSeek API prices by standard workload, input tokens, cached input, and output tokens.",
+    "tags": [
+      "pricing",
+      "leaderboard"
+    ],
+    "icon": "https://llmeconomics.app/favicon.ico",
+    "screenshot": "/shots/llmeconomics.jpg"
+  },
+  {
+    "id": "topaihubs",
+    "name": "Top AI Hubs",
+    "url": "https://topaihubs.com/llm-leaderboard",
+    "description": "Comprehensive comparison and ranking of over 180 AI models (LLMs) across key metrics including quality, price, performance, speed (tokens per second & latency), context window & benchmark scores.",
+    "tags": [
+      "leaderboard",
+      "comparison"
+    ],
+    "icon": "https://topaihubs.com/favicon-32x32.png",
+    "screenshot": "/shots/topaihubs.jpg"
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode Data",
+    "url": "https://opencode.ai/data/",
+    "description": "Explore OpenCode usage across AI models, including token volume, rankings, market share, token pricing, session cost, cache ratio, and geo breakdowns.",
+    "tags": [
+      "coding",
+      "benchmarks",
+      "leaderboard"
+    ],
+    "icon": "https://opencode.ai/favicon-v3.ico",
+    "screenshot": "/shots/opencode.jpg"
+  },
+  {
+    "id": "emproit",
+    "name": "EmproIT",
+    "url": "https://emproit.com/tools/llm-cost-calculator/",
+    "description": "Compare AI API costs across OpenAI, Anthropic, Google, Mistral. Daily, monthly, annual projections. Free, no signup.",
+    "tags": [
+      "pricing",
+      "calculator",
+      "comparison"
+    ],
+    "icon": "https://emproit.com/assets/images/logo/favicon.svg?v=11.0",
+    "screenshot": "/shots/emproit.jpg"
+  }
+]
