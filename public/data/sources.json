@@ -9,8 +9,8 @@
       "comparison"
     ],
     "icon": "https://www.aidatahub.io/favicon.svg",
-    "screenshot": "/shots/aidatahub.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/aidatahub.jpg"
   },
   {
     "id": "arena",
@@ -23,8 +23,8 @@
       "benchmarks"
     ],
     "icon": "https://arena.ai/images/favicon-rebrand.svg",
-    "screenshot": "/shots/arena.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/arena.jpg"
   },
   {
     "id": "artificialanalysis",
@@ -38,21 +38,21 @@
       "comparison"
     ],
     "icon": "https://artificialanalysis.ai/favicon.ico",
-    "screenshot": "/shots/artificialanalysis.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/artificialanalysis.jpg"
   },
   {
     "id": "benchlm",
     "name": "BenchLM",
     "url": "https://benchlm.ai/",
-    "description": "Compare 420 AI models across 428 benchmarks, with 231 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
+    "description": "Compare 489 AI models across 435 benchmarks, with 232 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
     "tags": [
       "leaderboard",
       "benchmarks"
     ],
     "icon": "https://benchlm.ai/favicon.svg",
-    "screenshot": "/shots/benchlm.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/benchlm.jpg"
   },
   {
     "id": "cloudquell",
@@ -64,8 +64,8 @@
       "comparison"
     ],
     "icon": "https://cloud.cloudquell.com/favicon.svg",
-    "screenshot": "/shots/cloudquell.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/cloudquell.jpg"
   },
   {
     "id": "comparity",
@@ -77,8 +77,8 @@
       "comparison"
     ],
     "icon": "https://comparity.ai/images/favicon-monogram.png",
-    "screenshot": "/shots/comparity.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/comparity.jpg"
   },
   {
     "id": "emproit",
@@ -91,8 +91,8 @@
       "comparison"
     ],
     "icon": "https://emproit.com/assets/images/logo/favicon.svg?v=11.0",
-    "screenshot": "/shots/emproit.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/emproit.jpg"
   },
   {
     "id": "leadscalc",
@@ -105,8 +105,8 @@
       "benchmarks"
     ],
     "icon": "https://www.leadscalc.com/favicon.ico",
-    "screenshot": "/shots/leadscalc.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/leadscalc.jpg"
   },
   {
     "id": "livebench",
@@ -119,8 +119,8 @@
       "coding"
     ],
     "icon": "https://livebench.ai/favicon.ico",
-    "screenshot": "/shots/livebench.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/livebench.jpg"
   },
   {
     "id": "llmcompare",
@@ -132,8 +132,8 @@
       "catalog"
     ],
     "icon": "https://llmcompare.dev/favicon.ico?favicon.0x3dzn~oxb6tn.ico",
-    "screenshot": "/shots/llmcompare.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmcompare.jpg"
   },
   {
     "id": "llmcosthub",
@@ -145,8 +145,8 @@
       "comparison"
     ],
     "icon": "https://llmcosthub.com/favicon.svg",
-    "screenshot": "/shots/llmcosthub.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmcosthub.jpg"
   },
   {
     "id": "llmeconomics",
@@ -158,8 +158,8 @@
       "leaderboard"
     ],
     "icon": "https://llmeconomics.app/favicon.ico",
-    "screenshot": "/shots/llmeconomics.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmeconomics.jpg"
   },
   {
     "id": "llming",
@@ -173,8 +173,8 @@
       "comparison"
     ],
     "icon": "https://llm.ing/favicon.svg",
-    "screenshot": "/shots/llming.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llming.jpg"
   },
   {
     "id": "llmregistry",
@@ -187,8 +187,8 @@
       "comparison"
     ],
     "icon": "https://llm-registry.com/icon.png?icon.5b192b1b.png",
-    "screenshot": "/shots/llmregistry.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmregistry.jpg"
   },
   {
     "id": "llmstats",
@@ -200,8 +200,8 @@
       "coding"
     ],
     "icon": "https://llm-stats.com/favicon.ico",
-    "screenshot": "/shots/llmstats.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmstats.jpg"
   },
   {
     "id": "llmversus",
@@ -214,8 +214,8 @@
       "comparison"
     ],
     "icon": "https://llmversus.com/favicon.ico?favicon.0x3dzn~oxb6tn.ico",
-    "screenshot": "/shots/llmversus.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/llmversus.jpg"
   },
   {
     "id": "modelgrep",
@@ -228,8 +228,8 @@
       "benchmarks"
     ],
     "icon": "https://modelgrep.com/favicon.ico",
-    "screenshot": "/shots/modelgrep.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/modelgrep.jpg"
   },
   {
     "id": "opencode",
@@ -242,8 +242,8 @@
       "leaderboard"
     ],
     "icon": "https://opencode.ai/favicon-v3.ico",
-    "screenshot": "/shots/opencode.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/opencode.jpg"
   },
   {
     "id": "openrouter",
@@ -256,8 +256,8 @@
       "catalog"
     ],
     "icon": "https://openrouter.ai/favicon/glyph.png",
-    "screenshot": "/shots/openrouter.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/openrouter.jpg"
   },
   {
     "id": "pricepertoken",
@@ -270,8 +270,8 @@
       "coding"
     ],
     "icon": "https://pricepertoken.com/Adobe%20Express%20-%20file.png",
-    "screenshot": "/shots/pricepertoken.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/pricepertoken.jpg"
   },
   {
     "id": "rankllms",
@@ -285,8 +285,8 @@
       "pricing"
     ],
     "icon": "https://rankllms.com/favicon-96x96.png",
-    "screenshot": "/shots/rankllms.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/rankllms.jpg"
   },
   {
     "id": "tokencost",
@@ -298,8 +298,8 @@
       "comparison"
     ],
     "icon": "https://tokencost.app/favicon.ico",
-    "screenshot": "/shots/tokencost.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/tokencost.jpg"
   },
   {
     "id": "topaihubs",
@@ -311,8 +311,8 @@
       "comparison"
     ],
     "icon": "https://topaihubs.com/favicon-32x32.png",
-    "screenshot": "/shots/topaihubs.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/topaihubs.jpg"
   },
   {
     "id": "vakati",
@@ -326,8 +326,8 @@
       "calculator"
     ],
     "icon": "https://www.vakati-tech.ai/icon?d8f13fee09861765",
-    "screenshot": "/shots/vakati.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/vakati.jpg"
   },
   {
     "id": "vellum",
@@ -339,8 +339,8 @@
       "benchmarks"
     ],
     "icon": "https://www.vellum.ai/favicon.svg",
-    "screenshot": "/shots/vellum.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/vellum.jpg"
   },
   {
     "id": "vercel",
@@ -352,8 +352,8 @@
       "pricing"
     ],
     "icon": "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico",
-    "screenshot": "/shots/vercel.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/vercel.jpg"
   },
   {
     "id": "whatllm",
@@ -365,7 +365,7 @@
       "comparison"
     ],
     "icon": "https://whatllm.org/images/whatllm-logo.png",
-    "screenshot": "/shots/whatllm.jpg",
-    "enable": true
+    "enable": true,
+    "screenshot": "/shots/whatllm.jpg"
   }
 ]
