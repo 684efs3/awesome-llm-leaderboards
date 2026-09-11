@@ -11,28 +11,32 @@ const hasShot = id => access(`public/shots/${id}.jpg`).then(() => true).catch(()
 await mkdir('public/shots', { recursive: true })
 
 const fromCache = item => {
+  const { wait, ...rest } = item
   const hit = cached[item.id] || {}
   console.log(`Cached ${item.id}`)
   return {
-    ...item,
+    ...rest,
     description: hit.description || item.description,
     icon: hit.icon || item.icon,
     screenshot: `/shots/${item.id}.jpg`,
+    enable: true,
   }
 }
 
 const scrape = async (context, item) => {
+  const { wait, ...rest } = item
   const page = await context.newPage()
-  const fallback = { ...item }
+  const fallback = { ...rest, enable: false }
   const output = await page.goto(item.url, { waitUntil: 'domcontentloaded', timeout: 30_000 })
     .then(async () => {
+      if (wait) await new Promise(r => setTimeout(r, wait))
       const meta = await page.evaluate(() => ({
         description: document.querySelector('meta[name="description"]')?.content,
         icon: document.querySelector('link[rel~="icon"]')?.href,
       }))
       const screenshot = `/shots/${item.id}.jpg`
       await page.screenshot({ path: `public${screenshot}`, type: 'jpeg', quality: 75 })
-      return { ...fallback, ...Object.fromEntries(Object.entries(meta).filter(([, value]) => value)), screenshot }
+      return { ...fallback, ...Object.fromEntries(Object.entries(meta).filter(([, value]) => value)), screenshot, enable: true }
     })
     .catch(error => (console.log(`Skipped ${item.id}: ${error.message}`), fallback))
   await page.close()
@@ -45,8 +49,10 @@ for (const item of items.slice(0, limit)) {
   plan.push({ item, skip: !force && await hasShot(item.id) })
 }
 
+const bin = process.env.CHROMIUM_PATH
+const useBin = bin && await access(bin).then(() => true).catch(() => false)
 const browser = plan.some(({ skip }) => !skip)
-  ? await chromium.launch({ headless: true, executablePath: process.env.CHROMIUM_PATH })
+  ? await chromium.launch({ headless: true, ...(useBin && { executablePath: bin }) })
   : null
 const context = browser
   ? await browser.newContext({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1 })

@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "validate": "node scripts/validate.js",
-    "collect": "node scripts/collect.js"
+    "readme": "node scripts/readme.js",
+    "collect": "CHROMIUM_PATH=/usr/sbin/chromium node scripts/collect.js"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",

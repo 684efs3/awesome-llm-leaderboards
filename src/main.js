@@ -3,8 +3,10 @@ import './style.css'
 const base = import.meta.env.BASE_URL
 const asset = path => `${base}${String(path).replace(/^\//, '')}`
 const app = document.querySelector('#app')
-const catalog = await fetch(asset('data/sources.json')).then(r => r.ok && r.json()) || []
+const catalog = (await fetch(asset('data/sources.json')).then(r => r.ok && r.json()) || [])
+  .filter(item => item.enable !== false)
 const tags = [...new Set(catalog.flatMap(({ tags }) => tags))].sort()
+const byName = (a, b) => a.name.localeCompare(b.name)
 const saved = JSON.parse(localStorage.favorites || '[]')
 const state = new Proxy({ query: '', tag: '', theme: localStorage.theme || '', favorites: saved }, {
   set: (target, key, value) => (target[key] = value, update(), true),
@@ -55,7 +57,8 @@ app.innerHTML = `
   </header>
   <div class="favs" hidden></div>
   <nav aria-label="Filter sources"></nav>
-  <div class="results"></div>`
+  <div class="results"></div>
+  <p class="site-foot">Want to contribute? <a href="https://github.com/metaory/awesome-llm-leaderboards#contribute-a-source" target="_blank" rel="noreferrer">Add a source</a></p>`
 
 const input = app.querySelector('input')
 const favsEl = app.querySelector('.favs')
@@ -82,6 +85,8 @@ const update = () => {
     acc[fav ? 0 : 1].push(item)
     return acc
   }, [[], []])
+  favs.sort(byName)
+  rest.sort(byName)
   nav.innerHTML = `<button class="${state.tag ? '' : 'active'}" data-tag="">all</button>${tags.map(tag => `<button class="${state.tag === tag ? 'active' : ''}" data-tag="${tag}">${tag}</button>`).join('')}`
   nav.scrollLeft = scroll
   syncMask()
@@ -133,7 +138,10 @@ results.onclick = favsEl.onclick = ({ target }) => {
     return state.favorites = next
   }
   const tag = target.closest('[data-tag]')
-  if (tag) return state.tag = tag.dataset.tag
+  if (tag) {
+    state.tag = tag.dataset.tag
+    return scrollTo({ top: results.offsetTop - 80, behavior: 'smooth' })
+  }
   if (target.closest('a')) return
   const url = target.closest('.card')?.dataset.url
   if (url) open(url, '_blank')
