@@ -292,7 +292,7 @@
     "id": "tokencost",
     "name": "TokenCost",
     "url": "https://tokencost.app/pricing",
-    "description": "Compare API pricing for GPT-5.4, Claude Opus 4.6, Gemini 3.1, Grok 4, and 142+ LLMs. Sortable table with benchmarks. Free.",
+    "description": "Compare API pricing for GPT-5.4, Claude Opus 4.6, Gemini 3.1, Grok 4, and 147+ LLMs. Sortable table with benchmarks. Free.",
     "tags": [
       "pricing",
       "comparison"
