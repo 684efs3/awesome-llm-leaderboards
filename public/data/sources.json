@@ -45,7 +45,7 @@
     "id": "benchlm",
     "name": "BenchLM",
     "url": "https://benchlm.ai/",
-    "description": "Compare 489 AI models across 435 benchmarks, with 232 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
+    "description": "Compare 497 AI models across 446 benchmarks, with 230 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
     "tags": [
       "leaderboard",
       "benchmarks"
