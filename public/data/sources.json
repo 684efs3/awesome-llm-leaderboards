@@ -45,7 +45,7 @@
     "id": "benchlm",
     "name": "BenchLM",
     "url": "https://benchlm.ai/",
-    "description": "Compare 497 AI models across 446 benchmarks, with 230 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
+    "description": "Compare 508 AI models across 486 benchmarks, with 194 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.",
     "tags": [
       "leaderboard",
       "benchmarks"
@@ -58,7 +58,7 @@
     "id": "cloudquell",
     "name": "CloudQuell",
     "url": "https://cloud.cloudquell.com/llm/?status=ga",
-    "description": "Compare LLM API pricing across 45 AI models from 8 providers — Anthropic, OpenAI, Google, xAI, DeepSeek, Mistral, Llama and Qwen. Input, output, cached and batch rates per 1M tokens, plus a free token-cost calculator. No signup.",
+    "description": "Compare API pricing for 51 LLMs from 8 providers (Anthropic, OpenAI, Google, xAI and more): input, output, cached and batch rates per 1M tokens.",
     "tags": [
       "pricing",
       "comparison"
@@ -284,7 +284,7 @@
       "coding",
       "pricing"
     ],
-    "icon": "https://rankllms.com/favicon-96x96.png",
+    "icon": "https://rankllms.com/favicon.svg?v=3",
     "enable": true,
     "screenshot": "/shots/rankllms.jpg"
   },
@@ -292,7 +292,7 @@
     "id": "tokencost",
     "name": "TokenCost",
     "url": "https://tokencost.app/pricing",
-    "description": "Compare API pricing for GPT-5.4, Claude Opus 4.6, Gemini 3.1, Grok 4, and 147+ LLMs. Sortable table with benchmarks. Free.",
+    "description": "Compare API pricing for GPT-5.4, Claude Opus 4.6, Gemini 3.1, Grok 4, and 151+ LLMs. Sortable table with benchmarks. Free.",
     "tags": [
       "pricing",
       "comparison"
