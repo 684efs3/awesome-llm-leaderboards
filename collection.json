@@ -218,4 +218,11 @@
     "icon": "https://whatllm.org/images/whatllm-logo.png",
     "wait": 5000
   }
+,
+  {
+    "id": "modelbenchmark",
+    "name": "ModelBenchmark",
+    "url": "https://modelbenchmark.io/",
+    "description": "Composite scores, prices, context windows, and release dates for 2,406 AI models."
+  }
 ]
