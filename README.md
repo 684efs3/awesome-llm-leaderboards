@@ -47,7 +47,7 @@ CI on schedule, on push: refresh metadata, screenshots; regenerate README Source
 - [AI Data Hub](https://www.aidatahub.io/data/llm-pricing) - Compare LLM API input and output token prices, context windows, and capabilities across major AI models in 2026.
 - [Arena](https://arena.ai/leaderboard/code/webdev) - See which AI models rank highest at building real web apps: frontend, fullstack, games and dashboards. Ranked by developers on real builds.
 - [Artificial Analysis](https://artificialanalysis.ai/) - Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency.
-- [BenchLM](https://benchlm.ai/) - Compare 785 AI models across 607 benchmarks, with 212 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.
+- [BenchLM](https://benchlm.ai/) - Compare 786 AI models across 607 benchmarks, with 214 ranked scores, source evidence, API pricing, context windows, runtime, and head-to-head pages.
 - [CloudQuell](https://cloud.cloudquell.com/llm/?status=ga) - Compare API pricing for 59 LLMs from 8 providers (Anthropic, OpenAI, Google, xAI and more): input, output, cached and batch rates per 1M tokens.
 - [Comparity](https://comparity.ai/leaderboard.html)
 - [EmproIT](https://emproit.com/tools/llm-cost-calculator/) - Compare AI API costs across OpenAI, Anthropic, Google, Mistral. Daily, monthly, annual projections. Free, no signup.
@@ -61,7 +61,7 @@ CI on schedule, on push: refresh metadata, screenshots; regenerate README Source
 - [LLM Economics](https://llmeconomics.app/leaderboard) - Compare verified OpenAI, Claude, Gemini, and DeepSeek API prices by standard workload, input tokens, cached input, and output tokens.
 - [LLMversus](https://llmversus.com/llm/pricing) - Compare LLM API pricing for GPT-4o, Claude Opus 4, Gemini 2.5 Pro, and 20+ more models. Sortable table with input/output costs, context windows, speed, and capabilities. Updated weekly.
 - [modelgrep](https://modelgrep.com/) - Find the best AI model for your use case: 300+ LLMs ranked by benchmarks, live speed, latency and price. Filter by cost, licence, context or capability - updated hourly.
-- [OpenCode Data](https://opencode.ai/data/) - As of October 6, 2026, space-bunny led OpenCode usage over the past 7 days with 60T tokens, followed by Muse Spark 1.3 Contributor (33T) and DeepSeek V4.1 Flash (33T).
+- [OpenCode Data](https://opencode.ai/data/) - As of October 6, 2026, space-bunny led OpenCode usage over the past 7 days with 61T tokens, followed by Muse Spark 1.3 Contributor (34T) and DeepSeek V4.1 Flash (34T).
 - [OpenRouter](https://openrouter.ai/models) - Compare 500+ LLMs from OpenAI, Anthropic, Google, Meta and more - pricing, context length, and benchmarks side by side, all through one API.
 - [Price Per Token](https://pricepertoken.com/) - Free LLM API pricing comparison. Compare GPT-5, Claude, Gemini & DeepSeek costs instantly. Updated daily with official prices from OpenAI, Anthropic & more.
 - [RankLLMs](https://rankllms.com/) - RankLLMs (rankllm) is the independent AI model leaderboard. Compare LLM coding accuracy (SWE-bench), reasoning, speed, and API pricing from a transparent, open-source dataset.
