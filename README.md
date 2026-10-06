@@ -8,7 +8,8 @@
 ## Why
 
 Rankings, price sheets: dozens of sites
-Search "best coding model", "Claude vs GPT price": scattered bookmarks, tabs
+Search "best coding model", "Claude vs GPT price": scattered bookmarks, tabs, ...
+
 This indexes those sources in one place: where to compare, not which model
 
 ## Contribute a source
