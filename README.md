@@ -7,7 +7,38 @@
 
 ## Why
 
-Model rankings and price sheets live on dozens of sites. Searching for "best coding model" or "Claude vs GPT price" scatters you across bookmarks and tabs. This project indexes those sources in one place so you can find where to compare, not which model to pick.
+Rankings, price sheets: dozens of sites
+Search "best coding model", "Claude vs GPT price": scattered bookmarks, tabs
+This indexes those sources in one place: where to compare, not which model
+
+## Contribute a source
+
+Know a leaderboard, pricing table, comparison tool that belongs here? Add it
+
+Index places to compare models; not individual models, vendor landing pages
+Prefer the deep link (leaderboard, pricing table, explorer)
+
+Add one entry to [`collection.json`](collection.json):
+
+```json
+{
+  "id": "short-slug",
+  "url": "https://example.com/",
+  "tags": ["leaderboard"]
+}
+```
+
+One site, one entry. Unique `id`, `url`. Tags from: `benchmarks`, `calculator`, `catalog`, `coding`, `comparison`, `leaderboard`, `pricing`
+
+Name, description, icon: inferred on collect. Override when page metadata is wrong, missing. Optional `wait` (ms): slow pages finish before screenshot
+
+Open a PR. CI: metadata, screenshots, Sources list
+Locally: `npm run collect` then `npm run readme`
+
+## How it works
+
+[`collection.json`](collection.json) in git: source of truth
+CI on schedule, on push: refresh metadata, screenshots; regenerate README Sources; build, publish to GitHub Pages
 
 <!-- BEGIN LIST -->
 
@@ -42,32 +73,6 @@ Model rankings and price sheets live on dozens of sites. Searching for "best cod
 - [WhatLLM](https://whatllm.org/explore) - Live LLM leaderboard ranking 100+ AI models by Intelligence Index, Agentic Index, cost per task, token price, speed, and context. Refreshed daily.
 
 <!-- END LIST -->
-
-## Contribute a source
-
-Know a leaderboard, pricing table, or comparison tool that belongs here? Add it.
-
-Only index places to compare models, not individual models or vendor landing pages. Prefer the deep link to the useful page (leaderboard, pricing table, explorer).
-
-Add one entry to [`collection.json`](collection.json):
-
-```json
-{
-  "id": "short-slug",
-  "url": "https://example.com/",
-  "tags": ["leaderboard"]
-}
-```
-
-One site, one entry. `id` and `url` must be unique. Tags must be from: `benchmarks`, `calculator`, `catalog`, `coding`, `comparison`, `leaderboard`, `pricing`.
-
-Name, description, and icon are inferred from the page on collect. Override any of them when the page metadata is wrong or missing. Optional `wait` (ms) helps slow pages finish rendering before the screenshot.
-
-Open a PR. CI collects metadata and screenshots, then regenerates the Sources list. Locally: `npm run collect` then `npm run readme`.
-
-## How it works
-
-[`collection.json`](collection.json) in git is the source of truth. CI runs on a schedule (and on push): it refreshes metadata and screenshots from each listed site, then builds and publishes the static directory to GitHub Pages.
 
 ## License
 
