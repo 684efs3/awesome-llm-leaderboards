@@ -31,8 +31,8 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: npm run validate
-      - run: npm run readme
       - run: npm run collect
+      - run: npm run readme
       - name: Commit generated files
         run: |
           git config user.name 'github-actions[bot]'

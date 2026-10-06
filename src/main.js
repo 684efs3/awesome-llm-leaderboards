@@ -12,7 +12,8 @@ const state = new Proxy({ query: '', tag: '', theme: localStorage.theme || '', f
   set: (target, key, value) => (target[key] = value, update(), true),
 })
 const host = url => new URL(url).hostname.replace(/^www\./, '')
-const matchQuery = (item, query) => `${item.name} ${item.description} ${item.tags.join(' ')}`.toLowerCase().includes(query)
+const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+const matchQuery = (item, query) => `${item.name || ''} ${item.description || ''} ${item.tags.join(' ')}`.toLowerCase().includes(query)
 const prefersDark = () => matchMedia('(prefers-color-scheme: dark)').matches
 const resolvedTheme = () => state.theme || (prefersDark() ? 'dark' : 'light')
 const svg = (viewBox, d, extra = '') =>
@@ -27,17 +28,18 @@ const icons = {
 
 const card = ({ id, name, url, description, tags: itemTags, icon, screenshot }) => {
   const on = state.favorites.includes(id)
+  const label = escape(name || host(url))
   return `
-  <article class="card${on ? ' favorited' : ''}" data-url="${url}" data-id="${id}">
-    <button type="button" class="fav" data-fav="${id}" aria-pressed="${on}" aria-label="${on ? 'Remove from favorites' : 'Add to favorites'}">${icons.star}</button>
-    <a class="preview" href="${url}" target="_blank" rel="noreferrer" aria-label="${name}">
+  <article class="card${on ? ' favorited' : ''}" data-url="${escape(url)}" data-id="${escape(id)}">
+    <button type="button" class="fav" data-fav="${escape(id)}" aria-pressed="${on}" aria-label="${on ? 'Remove from favorites' : 'Add to favorites'}">${icons.star}</button>
+    <a class="preview" href="${escape(url)}" target="_blank" rel="noreferrer" aria-label="${label}">
       ${screenshot ? `<img src="${asset(screenshot)}" alt="" loading="lazy">` : '<span>Open site</span>'}
-      <span class="host" aria-hidden="true">${host(url)}</span>
+      <span class="host" aria-hidden="true">${escape(host(url))}</span>
     </a>
     <section>
-      <header><img src="${icon}" alt="" onerror="this.remove()"><h2>${name}</h2></header>
-      <p>${description}</p>
-      <footer>${itemTags.map(tag => `<button data-tag="${tag}">${tag}</button>`).join('')}</footer>
+      <header>${icon ? `<img src="${escape(icon)}" alt="" onerror="this.remove()">` : ''}<h2>${label}</h2></header>
+      ${description ? `<p>${escape(description)}</p>` : ''}
+      <footer>${itemTags.map(tag => `<button data-tag="${escape(tag)}">${escape(tag)}</button>`).join('')}</footer>
     </section>
   </article>`
 }
