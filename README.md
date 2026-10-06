@@ -43,10 +43,6 @@ Model rankings and price sheets live on dozens of sites. Searching for "best cod
 
 <!-- END LIST -->
 
-## How it works
-
-[`collection.json`](collection.json) in git is the source of truth. CI runs on a schedule (and on push): it refreshes metadata and screenshots from each listed site, then builds and publishes the static directory to GitHub Pages.
-
 ## Contribute a source
 
 Know a leaderboard, pricing table, or comparison tool that belongs here? Add it.
@@ -68,6 +64,10 @@ One site, one entry. `id` and `url` must be unique. Tags must be from: `benchmar
 Name, description, and icon are inferred from the page on collect. Override any of them when the page metadata is wrong or missing. Optional `wait` (ms) helps slow pages finish rendering before the screenshot.
 
 Open a PR. CI collects metadata and screenshots, then regenerates the Sources list. Locally: `npm run collect` then `npm run readme`.
+
+## How it works
+
+[`collection.json`](collection.json) in git is the source of truth. CI runs on a schedule (and on push): it refreshes metadata and screenshots from each listed site, then builds and publishes the static directory to GitHub Pages.
 
 ## License
 
