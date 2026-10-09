@@ -45,6 +45,7 @@ CI on schedule, on push: refresh metadata, screenshots; regenerate README Source
 
 ## Sources
 
+- [AI Compare API Calculator](https://www.aicompare.ninja/en/api-calculator) - Estimate monthly LLM API costs from token usage and compare models using published OpenRouter prices. Free, no signup.
 - [AI Data Hub](https://www.aidatahub.io/data/llm-pricing) - Compare LLM API input and output token prices, context windows, and capabilities across major AI models in 2026.
 - [Arena](https://arena.ai/leaderboard/code/webdev) - See which AI models rank highest at building real web apps: frontend, fullstack, games and dashboards. Ranked by developers on real builds.
 - [Artificial Analysis](https://artificialanalysis.ai/) - Comparison and analysis of AI models and API hosting providers. Independent benchmarks across key performance metrics including quality, price, output speed & latency.
