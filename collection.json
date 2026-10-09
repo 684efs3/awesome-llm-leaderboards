@@ -1,5 +1,12 @@
 [
   {
+    "id": "ai-compare",
+    "name": "AI Compare API Calculator",
+    "url": "https://www.aicompare.ninja/en/api-calculator",
+    "tags": ["calculator", "pricing", "comparison"],
+    "description": "Estimate monthly LLM API costs from token usage and compare models using published OpenRouter prices. Free, no signup."
+  },
+  {
     "id": "aidatahub",
     "name": "AI Data Hub",
     "url": "https://www.aidatahub.io/data/llm-pricing",
